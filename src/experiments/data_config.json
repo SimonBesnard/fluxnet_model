@@ -1,0 +1,22 @@
+{
+    "input_vars": {
+        "varname": [
+            "NIRv",
+            "NDWI_band6",
+            "EVI",
+            "LST_Day_1km",
+            "LST_Night_1km",
+            "TA",
+            "P",
+            "SW_IN",
+            "VPD"
+            ]
+        },
+    "target_var": {
+        "varname": "NEE"
+    },
+    "time_range":{
+        "start_date": "2000-01-01",
+        "end_date": "2015-12-27"        
+    }
+}
